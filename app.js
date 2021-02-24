@@ -78,7 +78,7 @@ app.post("/failure" , function(req,res){
 });
 
 // process.env.PORT
-app.listen(process.env.POST || 3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("server is up");
 });
 
